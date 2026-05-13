@@ -1,65 +1,62 @@
-# - Insurance Claims Analysis (SQL Project) -
+# SQL Insurance Claims Analysis
 
-This project is part of my SQL learning portfolio focused on building real-world data analysis and data engineering fundamentals using PostgreSQL.
+## Project Overview
 
-This project focuses on using SQL to clean, transform, and analyse insurance claims data.
+This project is part of my SQL portfolio focused on building practical data analysis skills using PostgreSQL.
 
----
+It explores a simulated insurance claims dataset to understand how SQL can be used to analyse business data and extract useful operational insights.
 
-## • Real-world Data Challenges
-
-The dataset contains common issues found in real business data:
-
-- missing values  
-- duplicate records  
-- inconsistent categories  
-- unstructured data  
+The focus is on using SQL to identify patterns in claims data such as cost trends, frequency, and claim categories.
 
 ---
 
-## • What I Worked On
+## Business Context
 
-In this project, I used SQL to simulate real data workflow tasks including:
+Insurance claims data is typically used to understand:
+- high-cost claim categories
+- frequent claim types
+- severity patterns
+- operational trends in claims processing
 
-- cleaning and standardising raw data  
-- handling missing and duplicate values  
-- joining related tables  
-- creating analysis-ready datasets  
-- exploring basic business insights  
-
----
-
-## • How I Approached It
-
-I focused on thinking in terms of raw data → cleaned data → analysis-ready output, rather than just writing isolated SQL queries.
+This project simulates that type of analysis using SQL.
 
 ---
 
-## • Tools Used
+## What I Worked On
 
-PostgreSQL  
-SQL  
-Git & GitHub  
+In this project, I used SQL to perform structured analysis tasks including:
 
----
-
-## • Project Contents
-
-- Data cleaning queries  
-- Transformation queries  
-- Exploratory analysis queries  
-- Business insight examples  
+- analysing claim categories and costs  
+- identifying frequent claim types  
+- exploring severity patterns  
+- using aggregations and grouping for insights  
+- filtering and summarising claims data  
 
 ---
 
-## • Example SQL Query
+## How I Approached It
+
+I focused on moving from raw data → structured analysis → meaningful insights.
+
+The goal was not just to write queries, but to understand what the data means in a business context.
+
+---
+
+## Tools Used
+
+- PostgreSQL  
+- SQL  
+- Git & GitHub  
+
+---
+
+## Example SQL Query
 
 ```sql
 SELECT 
-    customer_id,
-    SUM(claim_amount) AS total_claim_value
+    claim_category,
+    COUNT(*) AS total_claims,
+    SUM(claim_amount) AS total_cost
 FROM claims
-WHERE claim_status = 'Approved'
-GROUP BY customer_id
-ORDER BY total_claim_value DESC;
-
+GROUP BY claim_category
+ORDER BY total_cost DESC;
