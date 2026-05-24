@@ -1,41 +1,65 @@
-• Insurance Claims Analysis (SQL Project)
+# Insurance Claims Risk Analytics & SQL Insights Project
 ---
-Risk Pattern Analysis & Business Insight Extraction
----
-• Project Overview
+## Project Overview
 
-- This project analyses insurance claims data to identify trends, risk patterns, and behavioural insights across different claim categories.
+This project analyses insurance claims data to identify risk patterns, claim behaviours, and trends across different categories.
 
-- It demonstrates how SQL can be used to extract meaningful insights from structured, risk-based datasets.
-
-- The focus is on applying analytical thinking to real insurance industry scenarios.
+The objective is to use SQL to extract insights that can support decision-making in risk management, fraud detection, and operational reporting.
 
 ---
-• Analysis Focus
 
-- Claims trends over time
-- High-risk categories identification
-- Claim frequency distribution
-- Risk pattern detection across datasets
+## Key Skills Demonstrated
+
+- SQL data extraction and filtering
+- Risk pattern identification using grouped analysis
+- Aggregation of claims data
+- Time-based and category-based analysis
+- Business-oriented data interpretation
+
 ---
-• Core SQL Skills Demonstrated
 
-- Data filtering and conditional logic
-- Aggregation and grouping
-- Trend analysis using structured data
-- Pattern recognition in datasets
-- Business-focused analytical thinking
+## Business Problem Addressed
+
+Insurance companies need to understand:
+
+- Which types of claims occur most frequently
+- Where higher risk patterns exist
+- How claims are distributed across categories
+- Potential indicators of abnormal or high-risk behaviour
+
+This project demonstrates how SQL can support these decisions.
+
 ---
-• Tools & Technologies
 
-- SQL (PostgreSQL / MySQL compatible)
-- Relational database querying
-- Git & GitHub version control
+## Tools Used
+
+- SQL (PostgreSQL / MySQL)
+
 ---
-• Business Value & Use Cases
 
-- Claims trend analysis
-- Risk assessment reporting
-- Fraud pattern detection (basic level)
-- Insurance operational reporting
-- Data-driven decision support
+## Key Insights (Example Outcomes)
+
+- Identification of high-frequency claim categories
+- Risk concentration across specific segments
+- Claim distribution patterns over time/categories
+
+---
+
+## Business Value
+
+This project simulates real insurance industry analytics used for:
+
+- Risk assessment
+- Fraud detection support
+- Operational reporting
+- Decision-making insights
+
+---
+
+## Future Improvements (Practical Next Steps)
+
+- Improve SQL queries for clearer structure and easier readability
+- Add more detailed breakdowns of claims by category and time period
+- Expand KPI analysis to include additional cost and frequency metrics
+- Refine grouping and filtering logic for more accurate insights
+- Extend dataset analysis to include more claim scenarios for comparison
