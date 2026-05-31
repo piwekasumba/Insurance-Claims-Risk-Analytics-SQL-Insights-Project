@@ -1,55 +1,34 @@
-# Insurance Claims Risk Analytics | SQL + PostgreSQL
----
-## Project Overview
+# Insurance Claims Risk Analytics SQL Insights Project
 
-This project explores how SQL can be used to analyze insurance claims data and transform raw records into structured business insights for risk evaluation and reporting.
+## • Problem Statement
 
-Using PostgreSQL, I focused on identifying patterns in claim behavior, risk exposure, and policyholder activity to simulate how analytics teams support operational and business decision-making in insurance environments.
+- Insurance companies need to understand claim risk patterns to reduce financial loss and improve risk assessment accuracy.
 
-The project emphasizes practical SQL analysis, structured querying, and reporting-oriented data thinking.
+## • Dataset Overview
 
----
+- This project analyzes insurance claims data including policyholders, claim amounts, claim status, and risk categories.
 
-## Business Problem
+## • Tools Used
 
-Insurance companies rely on accurate claims analysis to:
-- identify high-risk claim categories
-- monitor claim frequency trends
-- evaluate policyholder risk exposure
-- support operational reporting and risk management
+- SQL (PostgreSQL)
+- Data cleaning techniques
+- Risk-based aggregation analysis
 
-This project simulates a simplified analytics workflow used to support those objectives using SQL.
+## • Data Workflow
 
----
+- Raw insurance data → cleaned records → structured risk grouping → SQL analysis → risk insights
 
-## Technical Focus
+## • Key SQL Techniques Used
 
-- PostgreSQL
-- SQL Joins
-- Common Table Expressions (CTEs)
-- Window Functions
-- Aggregations & Grouping
-- Data Cleaning & Structuring
-- Reporting-Oriented Query Design
+- Joins between policy and claims tables
+- Aggregation of claim values
+- Filtering high-risk claims
+- Grouping risk categories
 
----
+## • Business Insights
 
-## Key Analysis Areas
+- Identifies high-risk policy segments and claim patterns that increase financial exposure.
 
-### Claims Trend Analysis
+## • Outcome / Value
 
-Analyzed claim activity patterns across categories and time periods to identify trends in claim frequency.
-
-### Risk Segmentation
-
-Grouped policyholders based on claims-related characteristics to simulate risk-focused analysis.
-
-### Reporting Insights
-
-Built SQL queries designed to support structured business reporting and operational visibility.
-
----
-
-## Outcome
-
-This project demonstrates how SQL can be used to transform insurance claims data into meaningful business insights that support reporting, analysis, and operational decision-making.
+- Helps insurers improve decision-making in risk pricing and claim management.
