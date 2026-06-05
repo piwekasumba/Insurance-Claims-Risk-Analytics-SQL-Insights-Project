@@ -2,19 +2,25 @@ Commit – Basic ETL and Data Transformation Using SQL
 
 This stage focuses on applying basic ETL (Extract, Transform, Load) concepts using SQL within the insurance claims dataset.
 
-The goal is to understand how data can be prepared for analysis by combining extraction, simple transformations, and structured loading into usable tables.
+The goal is to understand how data is prepared for analysis through structured steps that simulate a real-world data workflow.
 
 At this stage, the following was done:
 
-- Extracted data from existing tables for further processing
-- Applied basic cleaning steps such as handling missing values and checking for duplicates
-- Created simple transformations, including calculated fields and derived values
-- Structured queries to prepare data in a more analysis-ready format
+- Created a raw dataset table to represent incoming data (claims_raw)
+- Performed basic data cleaning such as removing missing or invalid records
+- Standardized text fields for consistency (e.g., policy_type formatting)
+- Created derived fields such as:
+  - Claim year (for time-based analysis)
+  - Claim risk level (for business classification)
+
+- Built a cleaned dataset (claims_clean) for analysis purposes
+- Aggregated data into a reporting table (claims_summary)
 
 Key focus during this stage:
 
-- Understanding how data changes during transformation
-- Observing how small adjustments affect final outputs
-- Maintaining consistency when preparing data across multiple tables
+- Understanding how raw data becomes analysis-ready
+- Learning how transformations affect analytical outputs
+- Practicing structured SQL workflows (ETL thinking)
+- Building simple reporting tables for business insights
 
-• This stage builds on earlier steps and introduces a more structured way of preparing data before analysis, while still focusing on learning core SQL concepts.
+This stage strengthens foundational SQL and data preparation skills commonly used in junior data analyst roles.
