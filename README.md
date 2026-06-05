@@ -1,34 +1,35 @@
-# Insurance Claims Risk Analytics SQL Insights Project
+Insurance Claims Risk Analytics SQL Insights Project
 
-## Problem Statement
+- Business Problem:
 
-- Insurance companies need to understand claim risk patterns to reduce financial loss and improve risk assessment accuracy.
+• Insurance companies process large volumes of claims every day. Without proper analysis, it becomes difficult to identify high-risk claim categories, monitor claim costs, and understand patterns that may impact profitability.
 
-## Dataset Overview
+• This project demonstrates how SQL can be used to transform raw insurance claims data into actionable business insights that support risk management and operational decision-making.
 
-- This project analyzes insurance claims data including policyholders, claim amounts, claim status, and risk categories.
+- Project Objectives:
 
-## Tools Used
+• Analyze insurance claims data using SQL
+• Identify high-risk claim categories
+• Measure claim frequency and financial impact
+• Discover trends that could influence business performance
+• Demonstrate practical SQL analysis techniques used by data analysts
 
-- SQL (PostgreSQL)
-- Data cleaning techniques
-- Risk-based aggregation analysis
+- Tools Used:
+  
+• SQL
+• Relational Database Concepts
+• Aggregate Functions
+• GROUP BY
+• CASE Statements
+• Joins
+• Common Business KPI Analysis
 
-## Data Workflow
-
-- Raw insurance data → cleaned records → structured risk grouping → SQL analysis → risk insights
-
-## Key SQL Techniques Used
-
-- Joins between policy and claims tables
-- Aggregation of claim values
-- Filtering high-risk claims
-- Grouping risk categories
-
-## Business Insights
-
-- Identifies high-risk policy segments and claim patterns that increase financial exposure.
-
-## Outcome / Value
-
-- Helps insurers improve decision-making in risk pricing and claim management.
+- Skills Demonstrated:
+ 
+• Data Cleaning
+• Data Exploration
+• Business Analysis
+• KPI Reporting
+• Risk Analytics
+• SQL Query Development
+• Insight Generation
