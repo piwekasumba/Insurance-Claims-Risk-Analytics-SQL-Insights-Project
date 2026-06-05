@@ -1,6 +1,6 @@
-# SQL Insurance Claims Analysis Project
+• SQL Insurance Claims Analysis Project
 
-## Project Overview
+- Project Overview
 
 This project focuses on analyzing insurance claims data using SQL to simulate real-world data analysis workflows. The objective is to explore customer behavior, claim patterns, and risk indicators through structured relational database design and querying.
 
@@ -8,7 +8,7 @@ The project demonstrates how raw data can be transformed into meaningful insight
 
 ---
 
-## Objectives
+- Objectives
 
 - Understand insurance claims and customer data relationships
 - Practice SQL-based data cleaning and transformation
@@ -18,7 +18,7 @@ The project demonstrates how raw data can be transformed into meaningful insight
 
 ---
 
-## Dataset Description
+- Dataset Description
 
 The project uses two main datasets:
 
@@ -29,7 +29,7 @@ These datasets are connected using relational keys (customer_id), allowing for m
 
 ---
 
-## Key SQL Work Completed
+- Key SQL Work Completed
 
 - Creation of relational database tables
 - Data cleaning and standardization
@@ -41,7 +41,7 @@ These datasets are connected using relational keys (customer_id), allowing for m
 
 ---
 
-## Analytical Focus Areas
+- Analytical Focus Areas
 
 - Total claim amounts by customer segments
 - Claim frequency and severity analysis
@@ -51,7 +51,7 @@ These datasets are connected using relational keys (customer_id), allowing for m
 
 ---
 
-## Key Learnings
+- Key Learnings
 
 - Understanding relational database design principles
 - Applying SQL for real-world data analysis tasks
@@ -61,7 +61,7 @@ These datasets are connected using relational keys (customer_id), allowing for m
 
 ---
 
-## Conclusion
+- Conclusion
 
 This project represents a complete SQL-based data analysis workflow, starting from raw data structure to final analytical outputs.
 
