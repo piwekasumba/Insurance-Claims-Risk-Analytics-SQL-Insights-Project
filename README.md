@@ -1,50 +1,54 @@
-Business Problem:
+# Insurance Claims Risk Analytics (SQL Reporting Project)
 
-• Insurance companies process large volumes of claims every day. Without proper analysis, it becomes difficult to identify high-risk claim categories, monitor claim costs, and understand patterns that may impact profitability.
+## 1. Business Problem
 
-• This project demonstrates how SQL can be used to transform raw insurance claims data into actionable business insights that support risk management and operational decision-making.
+Insurance companies process large volumes of claims daily, making it difficult to consistently identify high-risk claim patterns, monitor financial exposure, and maintain accurate reporting structures for decision-making.
 
-Project Objectives:
+Without structured SQL reporting, risk interpretation can become inconsistent across different reporting levels.
 
-• Analyze insurance claims data using SQL
-• Identify high-risk claim categories
-• Measure claim frequency and financial impact
-• Discover trends affecting business performance
-• Demonstrate practical SQL analysis techniques used in data analytics
+---
 
-Key Insights:
+## 2. Reporting Objective
 
-• Identified high-frequency claim categories
-• Analyzed claim approval and rejection patterns
-• Measured average claim values across categories
-• Highlighted potential risk concentration areas
-• Showed how SQL supports insurance decision-making
+To build SQL-based reporting logic that helps analyze insurance claims, identify risk patterns, and understand how different aggregation levels (claim, customer, policy) affect risk interpretation.
 
-Skills Demonstrated:
+---
 
-SQL Skills:
+## 3. SQL Process
 
-• SELECT statements
-• WHERE filtering
-• GROUP BY aggregations
-• CASE logic
-• Joins
-• Data exploration
+- Data cleaning and preparation using SQL
+- Joining claims, customer, and policy datasets
+- Aggregating claims at different reporting levels
+- Using GROUP BY and filtering logic to structure insights
+- Identifying patterns in claim frequency and cost distribution
 
-Analytics Skills:
+---
 
-• Risk analysis
-• KPI tracking
-• Trend identification
-• Insight generation
+## 4. Decision Insight
 
-Professional Skills:
+Different grouping levels significantly change how risk is interpreted in reporting systems:
 
-• Business thinking
-• Data storytelling
-• Analytical communication
-• Problem solving
+- Claim-level reporting shows detailed activity but scattered risk patterns
+- Customer-level reporting highlights concentrated risk behavior
+- Policy-level reporting provides broader portfolio risk visibility
 
-Business Impact:
+This shows how reporting structure directly influences business interpretation.
 
-• This analysis helps insurance teams understand where financial risk is concentrated and supports better decision-making around claims management and cost control.
+---
+
+## 5. Business Impact
+
+This type of analysis supports:
+
+- More accurate risk classification
+- Better insurance pricing decisions
+- Improved reporting consistency across departments
+- Early identification of high-risk customer segments
+
+---
+
+## 6. What I would improve in a real company
+
+- Automate reporting pipelines using scheduled SQL jobs
+- Add dashboard layer for real-time risk monitoring
+- Introduce data validation checks for reporting accuracy
